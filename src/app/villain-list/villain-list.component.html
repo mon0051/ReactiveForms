@@ -1,0 +1,6 @@
+<div class="row">
+  <div *ngFor="let villain of villainList" class="col-md-6">
+    <app-villain-detail  [villain]="villain" (villainUpdate)="showUpdate(villain)"></app-villain-detail>
+  </div>
+</div>
+
